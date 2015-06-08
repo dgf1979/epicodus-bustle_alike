@@ -2,6 +2,50 @@
   cursor: pointer;
 }
 
+.carousel-image {
+  min-height:300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position:relative;
+  margin-bottom:50px;
+}
+
+.carousel-tag {
+  position:absolute;
+  bottom:12px;
+  background: #484848;
+  opacity:0.7;
+  width:100%;
+  text-align: center;
+  padding:10px;
+  color:white;
+}
+
+div.arrow {
+  height: 100%;
+  font-size: 4em;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+div.arrow p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 4px;
+}
+
+div#leftArrow {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+div#rightArrow {
+  position: absolute;
+  right: 0px;
+}
+
 .news-item {
   min-height: 350px;
   margin-bottom: 50px;
@@ -16,4 +60,26 @@
 
 .image-container img {
   width:100%;
+}
+
+.social {
+  padding-top:15px;
+  position: fixed;
+  z-index:2;
+}
+
+.socialPanel {
+  padding:25px;
+  background: #F8F8F8;
+}
+
+nav.fixed-top {
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  width: 80%;
+}
+
+div.outlet {
+  margin-top: 80px;
 }
