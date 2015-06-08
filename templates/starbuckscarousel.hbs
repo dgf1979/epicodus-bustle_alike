@@ -1,6 +1,7 @@
 <div class="carousel-image" style="background-image:url('../images/starbucks.jpg')">
-  <div id="leftArrow" class="arrow"><p>{{#link-to "gotcarousel"}}&lt;{{/link-to}}</p></div>
+  {{#if arrowsDisplayed}}
+    <div id="leftArrow" class="arrow"><p>{{#link-to "gotcarousel"}}&lt;{{/link-to}}</p></div>
+    <div id="rightArrow" class="arrow"><p>{{#link-to "applewatchcarousel"}}&gt;{{/link-to}}</p></div>
+  {{/if}}
   <h4 class="carousel-tag">Starbucks</h4>
-  <div id="rightArrow" class="arrow"><p>{{#link-to "applewatchcarousel"}}&gt;{{/link-to}}</p></div>
-
 </div>

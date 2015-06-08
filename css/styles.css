@@ -13,8 +13,9 @@
 .carousel-tag {
   position:absolute;
   bottom:12px;
-  background: #484848;
-  opacity:0.7;
+  /*background: #484848;*/
+  background: linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.1), rgba(0,0,0,0.0));
+  /*opacity:0.7;*/
   width:100%;
   text-align: center;
   padding:10px;
@@ -24,8 +25,9 @@
 div.arrow {
   height: 100%;
   font-size: 4em;
-  background: rgba(0,0,0,0.5);
+  /*background: rgba(0,0,0,0.5);*/
   color: white;
+  background: linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.1), rgba(0,0,0,0.8), rgba(0,0,0,0.1), rgba(0,0,0,0.0));
 }
 
 div.arrow p {
@@ -46,6 +48,11 @@ div#rightArrow {
   right: 0px;
 }
 
+ul#right-nav {
+  position: absolute;
+  right:200px;
+}
+
 .news-item {
   min-height: 350px;
   margin-bottom: 50px;
@@ -63,13 +70,25 @@ div#rightArrow {
 }
 
 .social {
-  padding-top:15px;
-  position: fixed;
+  padding-top:9px;
   z-index:2;
+  position:fixed
+}
+
+.social li img {
+  width: 32px;
+}
+
+.social li {
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 .socialPanel {
+  top:30px;
+  right:125px;
   padding:25px;
+  background:blue;
   background: #F8F8F8;
 }
 
